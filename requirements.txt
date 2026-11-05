@@ -1,0 +1,11 @@
+# NOTE: this file does NOT install the ap2 package itself.
+# The scripts need the AP2 reference SDK, which you install by cloning
+# https://github.com/google-agentic-commerce/AP2 and running `pip install -e .`
+# (that command also installs everything listed below). See README.md.
+#
+# These pins are the SDK's own runtime dependencies, listed here only for
+# reference and offline/air-gapped setups.
+cryptography==46.0.5
+jwcrypto==1.5.6
+pydantic==2.12.5
+sd-jwt==0.10.4

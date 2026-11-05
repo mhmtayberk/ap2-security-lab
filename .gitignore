@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+AP2/
+.env
+*.log
+*.tmp
+.vscode/
+*.bak
+.mypy_cache/
+.pytest_cache/
