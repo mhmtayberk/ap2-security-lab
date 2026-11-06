@@ -5,8 +5,8 @@ OpenPaymentMandate.constraints is a non-discriminated Pydantic union and
 ExecutionDate has only optional fields. A constraint object with no known
 fields is parsed as an empty ExecutionDate, which enforces nothing.
 
-Not a new vulnerability: same class as issue #339, closed by Google's OSS VRP
-as intended behavior.
+Related to the presence-driven evaluation in issue #339, but this specific
+coercion path was not reported publicly; reported in issue #395.
 
 [1] https://ap2-protocol.org/ap2/agent_authorization/#verification-and-processing-rules
 """
