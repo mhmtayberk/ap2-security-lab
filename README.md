@@ -79,7 +79,7 @@ What leaks (what you have to handle yourself):
 
 | Script | Shows | Reference |
 | --- | --- | --- |
-| `06_unknown_constraint.py` | An unknown constraint is coerced to a no-op instead of failing. | [#339](https://github.com/google-agentic-commerce/AP2/issues/339) |
+| `06_unknown_constraint.py` | An unknown constraint is coerced to a no-op instead of failing. | [#395](https://github.com/google-agentic-commerce/AP2/issues/395) |
 | `07_withheld_disclosure.py` | Withholding a constraint's disclosure silently disables it. | [#339](https://github.com/google-agentic-commerce/AP2/issues/339) |
 | `08_intermediate_aud_nonce.py` | aud/nonce are not checked on intermediate delegation hops. | [#319](https://github.com/google-agentic-commerce/AP2/issues/319) |
 | `09_checkout_binding.py` | checkout_jwt signature and hash binding are left to the caller. | [#331](https://github.com/google-agentic-commerce/AP2/issues/331) |
