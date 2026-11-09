@@ -6,7 +6,7 @@ against its reference Python SDK. Each script runs an attack or a check against 
 signed mandate and asserts the outcome, so the behavior is reproducible rather
 than described.
 
-This accompanies the write-up *What the AP2 SDK Won't Do For You*.
+This accompanies the blogpost [Where the AP2 SDK Leaves Security to You](https://ayberk.ninja/where-the-ap2-sdk-leaves-security-to-you).
 
 ## What this is, and what it is not
 
