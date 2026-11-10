@@ -17,8 +17,11 @@ intended behavior. The value here is seeing the whole picture run in one place,
 from an integrator's point of view: which checks the SDK performs for you, and
 which ones you have to perform yourself.
 
-Tested against AP2 **v0.2** (released 2026-04-28). Behavior may change in later
-versions, so each script links the relevant issue or spec section.
+Tested against AP2 **v0.2** (released 2026-04-28) at SDK commit **e1ea56d**,
+with Pydantic 2.12.5. The repository is active and its generated model can
+change, so the setup below pins that commit. If a script stops reproducing the
+behavior it describes, check out **e1ea56d** to get the exact state this lab
+was built against.
 
 ## Setup
 
