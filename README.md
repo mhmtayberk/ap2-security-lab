@@ -38,6 +38,7 @@ source venv/bin/activate          # Windows: venv\Scripts\activate
 # Install the AP2 reference SDK (this installs ap2 and all its dependencies).
 git clone https://github.com/google-agentic-commerce/AP2.git
 cd AP2
+git checkout e1ea56d    # the exact commit this lab was written against
 pip install -e .
 cd ..
 
